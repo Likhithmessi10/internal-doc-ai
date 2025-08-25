@@ -88,7 +88,6 @@ with st.sidebar:
     st.subheader("Models")
     st.text_input("GEN_MODEL", value=os.getenv("GEN_MODEL", "models/gemini-1.5-flash"), key="gen_model")
     st.text_input("EMBED_MODEL", value=os.getenv("EMBED_MODEL", "models/text-embedding-004"), key="emb_model")
-    st.caption("Make sure GOOGLE_API_KEY is set in your environment or .env file.")
 
 # --------- MAIN CONTENT ---------
 tab_ingest, tab_chat = st.tabs(["Ingest Documents", "Chat with Docs"])
