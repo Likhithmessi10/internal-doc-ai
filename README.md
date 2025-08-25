@@ -48,20 +48,27 @@ The system retrieves relevant content from your docs and provides concise answer
 ### 1️⃣ Clone the repo
 
 git clone https://github.com/<your-username>/internal-docs-qa.git
+
 cd internal-docs-qa
 
 ### 2️⃣ Create a virtual environment
 python -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
+
 
 ### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
 ### 4️⃣ Add API key
 create a .env file in the project root:
+
 GOOGLE_API_KEY=your_api_key_here
+
 INDEX_DIR=.index
+
 
 ### 5️⃣ Run the app
 streamlit run app.py
