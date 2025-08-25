@@ -22,14 +22,23 @@ The system retrieves relevant content from your docs and provides concise answer
 
 ## 📂 Project Structure
 ├── app.py # Streamlit app (UI)
+
 ├── rag/
+
 │ ├── ingest.py # Document ingestion
+
 │ ├── chunk.py # Chunking docs into pieces
+
 │ ├── embed_gemini.py # Embedding using Gemini
+
 │ ├── vectorstore.py # Disk-based vector index
+
 │ └── qa.py # Question answering
+
 ├── sample_docs/ # Example documents
+
 ├── requirements.txt # Dependencies
+
 └── README.md # Project documentation
 
 ---
