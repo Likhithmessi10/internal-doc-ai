@@ -47,9 +47,9 @@ The system retrieves relevant content from your docs and provides concise answer
 
 ### 1️⃣ Clone the repo
 
-git clone https://github.com/<your-username>/internal-docs-qa.git
+git clone https://github.com/likhithmessi10/internal-doc-ai.git
 
-cd internal-docs-qa
+cd internal-doc-ai
 
 ### 2️⃣ Create a virtual environment
 python -m venv venv
