@@ -54,8 +54,8 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 ### 4️⃣ Add API key
-```bash
 create a .env file in the project root:
+```bash
 GOOGLE_API_KEY=your_api_key_here
 INDEX_DIR=.index
 ```
@@ -67,7 +67,6 @@ streamlit run app.py
 ---
 
 ## 🚀 Usage
-
 Upload or point to your documents (PDF, DOCX, TXT, MD).
 
 Click Build Index to preprocess & embed them.
