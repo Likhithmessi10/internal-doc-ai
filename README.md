@@ -10,7 +10,7 @@ The system retrieves relevant content from your docs and provides concise answer
 
 ---
 
-## ✨ Features
+## Features
 - **Multi-format ingestion** — supports `.pdf`, `.docx`, `.txt`, `.md`
 - **Smart chunking** of large documents
 - **Embeddings with Gemini** for semantic search
@@ -20,7 +20,7 @@ The system retrieves relevant content from your docs and provides concise answer
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── app.py # Streamlit app (UI)
 ├── rag/
@@ -35,7 +35,7 @@ The system retrieves relevant content from your docs and provides concise answer
 ```
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the repo
 ```bash
