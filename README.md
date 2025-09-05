@@ -11,12 +11,12 @@ The system retrieves relevant content from your docs and provides concise answer
 ---
 
 ## ✨ Features
-- 🔍 **Multi-format ingestion** — supports `.pdf`, `.docx`, `.txt`, `.md`
-- 📑 **Smart chunking** of large documents
-- 🤖 **Embeddings with Gemini** for semantic search
-- ⚡ **Vector search** using cosine similarity
-- 💬 **Natural language Q&A** powered by Google Generative AI
-- 🖥️ **Streamlit interface** (easy to use, clean UI)
+- **Multi-format ingestion** — supports `.pdf`, `.docx`, `.txt`, `.md`
+- **Smart chunking** of large documents
+- **Embeddings with Gemini** for semantic search
+- **Vector search** using cosine similarity
+- **Natural language Q&A** powered by Google Generative AI
+- **Streamlit interface** (easy to use, clean UI)
 
 ---
 
@@ -66,7 +66,7 @@ streamlit run app.py
 ```
 ---
 
-## 🚀 Usage
+## Usage
 Upload or point to your documents (PDF, DOCX, TXT, MD).
 
 Click Build Index to preprocess & embed them.
@@ -77,7 +77,7 @@ Get instant answers with citations.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Streamlit
  – UI
@@ -96,7 +96,7 @@ PyPDF
 
  ---
 
- ## 👨‍💻 Team
+ ## Team
 
 Built by Likhith
  & Surya Vanapalli @SuryaVanapalli14
